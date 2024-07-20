@@ -85,8 +85,7 @@ const markup = images
 
 imgList.innerHTML = markup;
 
-const pictures = document.querySelector(".gallery");
-pictures.addEventListener("click", selectImage);
+imgList.addEventListener("click", selectImage);
 
 function selectImage(event) {
   event.preventDefault();
